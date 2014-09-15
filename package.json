@@ -1,0 +1,20 @@
+{
+  "name": "jsoc.io",
+  "version": "0.0.0",
+  "description": "JS OC - http://jsoc.io",
+  "private": true,
+  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/javascriptoc/jsoc.io.git"
+  },
+  "author": "Mark Wilkerson <mark@segfawlt.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javascriptoc/jsoc.io/issues"
+  },
+  "homepage": "https://github.com/javascriptoc/jsoc.io",
+  "dependencies": {
+    "harp": "0.13.0"
+  }
+}
