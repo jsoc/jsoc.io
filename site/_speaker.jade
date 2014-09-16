@@ -1,0 +1,12 @@
+div.speaker
+  h1= name
+  img(src="#{image}").speaker-pic
+  ul
+    if twitter
+      li.twitter
+        a(href="https://twitter.com/#{twitter}") @#{twitter}
+    if github
+      li.github
+        a(href="https://github.com/#{github}") #{github}
+    if description
+      li.description= description
