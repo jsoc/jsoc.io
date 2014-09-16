@@ -1,0 +1,42 @@
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  background-color: white;
+  color: black;
+  
+  font-weight: 300;
+}
+
+img {
+  width: 200px;
+}
+
+.wrapper {
+   display: table;
+   width: 100%;
+   min-height: 100%;
+}
+
+
+
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
+.info {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+
+:link, :visited {
+  color: black;
+  text-decoration: none;
+}
