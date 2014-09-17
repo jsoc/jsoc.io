@@ -1,5 +1,3 @@
-![jsoc.io](http://jsoc.io/images/logo.png)
-
 jsoc.io
 =======
 
@@ -20,3 +18,5 @@ jsoc.io is generated using [harp](http://harpjs.com/)
 Before working on changes/updates please create a branch. ```git checkout -b redesign``` for example.
 
 When you're done making your commits just go ahead and submit a pull request.
+
+![jsoc.io](http://jsoc.io/images/logo.png)
