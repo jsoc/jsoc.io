@@ -10,10 +10,9 @@ Development Instructions
 
 jsoc.io is generated using [harp](http://harpjs.com/)
 
-- ```$ npm install -g harp```
 - ```$ git clone https://github.com/javascriptoc/jsoc.io```
-- ```$ cd jsoc.io/site```
-- ```$ harp server```
+- ```$ npm install```
+- ```$ npm start```
 
 Before working on changes/updates please create a branch. ```git checkout -b redesign``` for example.
 
