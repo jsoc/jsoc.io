@@ -11,6 +11,7 @@ Development Instructions
 jsoc.io is generated using [harp](http://harpjs.com/)
 
 - ```$ git clone https://github.com/javascriptoc/jsoc.io```
+- ```$ cd jsoc.io/```
 - ```$ npm install```
 - ```$ npm start```
 
