@@ -7,7 +7,7 @@
       {
         "title": "Node.js OC - Docker and Node",
         "description": "How Zillow is using Docker with Node.js.",
-        "slideshare": "//www.slideshare.net/slideshow/embed_code/38980381",
+        "slides": "//www.slideshare.net/slideshow/embed_code/38980381",
         "speaker": {
           "name": "Jeffrey Horn",
           "image": "https://avatars3.githubusercontent.com/u/1922957?v=2&s=460",
@@ -26,6 +26,118 @@
         "speaker": {
           "name": "Eric Wolf"
         }
+      }]
+    },
+    {
+      "date": "July 16, 2014",
+      "location": "PeopleSpace",
+      "topics": [
+      {
+        "title": "Continuous Integration",
+        "description": "Live deploying an app w/ Salt & StriderCD",
+        "speaker": {
+          "name": "Keyvan Fatehi",
+          "organization": "StriderCD"
+        }
+      }]
+    },
+    {
+      "date": "June 11, 2014",
+      "location": "PeopleSpace",
+      "topics": [
+      {
+        "title": "Isomorphic Javascript",
+        "description": "Isomorphic Javascript",
+        "slides": "http://slides.com/scottcorgan/like-a-glove#/",
+        "speaker": {
+          "name": "Scott Corgan",
+          "organization": "Divshot"
+        }
+      },{
+        "title": "Node.js + Email",
+        "description": "Node.js + Email",
+        "slides": "http://mattkopala.com/node-email-talk/",
+        "speaker": {
+          "name": "Matt Kopala",
+          "organization": "TaskBump"
+        }
+      }]
+    },
+    {
+      "date": "May 14, 2014",
+      "location": "PeopleSpace",
+      "topics": [
+      {
+        "title": "The Stream API",
+        "description": "The Stream API",
+        "speaker": {
+          "name": "Mark Wilkerson"
+        }
+      }]
+    },
+    {
+      "date": "March 12, 2014",
+      "location": "PeopleSpace",
+      "topics": [
+      {
+        "title": "Filling in the Gaps",
+        "description": "Filling in the Gaps",
+        "speaker": {
+          "name": "Mark Wilkerson"
+        }
+      }]
+    },
+    {
+      "date": "December 11, 2013",
+      "location": "Drumbi",
+      "topics": [
+      {
+        "title": "GruntJS",
+        "description": "GruntJS",
+        "slides": "http://benwas.com/grunt/",
+        "speaker": {
+          "name": "Benjamin Wasilewski"
+        }
+      }]
+    },
+    {
+      "date": "November 20, 2013",
+      "location": "Drumbi",
+      "topics": [
+      {
+        "title": "Callbacks from HELL! How to manage Async",
+        "description": "Callbacks from HELL! How to manage Async",
+        "speaker": {
+          "name": "Eddy Kim (?)"
+        }
+      }]
+    },
+    {
+      "date": "September 25, 2013",
+      "location": "Drumbi",
+      "topics": [
+      {
+        "title": "Intro to Socket IO",
+        "description": "Intro to Socket IO",
+        "slides": "http://www.slideshare.net/eddify/node-js-oc-meetup-2-socket-io-intro",
+        "speaker": {
+          "name": "Eddy Kim"
+        }
+      }]
+    },
+    {
+      "date": "July 16, 2013",
+      "location": "Drumbi",
+      "topics": [
+      {
+        "title": "Intro To Node.JS",
+        "description": "Intro To Node.JS",
+        "slides": "http://www.slideshare.net/eddify/meetup1-24323479",
+        "speaker": [{
+          "name": "Farsheed Atef"
+        },{
+          "name": "Eddy Kim"
+        }]
       }]
     }
   ]
