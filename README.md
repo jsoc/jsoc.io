@@ -1,6 +1,9 @@
 jsoc.io
 =======
 
+<img alt="jsoc.io" src="http://jsoc.io/images/logo.png" width="120" />
+
+
 Static site for [jsoc.io](http://jsoc.io).
 
 Inspired (heavily) by @jsla.
@@ -18,5 +21,3 @@ jsoc.io is generated using [harp](http://harpjs.com/)
 Before working on changes/updates please create a branch. ```git checkout -b redesign``` for example.
 
 When you're done making your commits just go ahead and submit a pull request.
-
-![jsoc.io](http://jsoc.io/images/logo.png)
