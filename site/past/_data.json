@@ -1,5 +1,22 @@
 {
   "events": [
+  {
+    "date": "October 8, 2014",
+    "location": "Zillow Irvine HQ",
+    "topics": [
+    {
+      "title": "Creating CLI applications with Node.js",
+      "description": "The command-line interface (CLI) is where modern development tools began and continue to be. Learn the about the CLI and the UNIX philosophy, and how you can create your own CLI tools with NodeJS.",
+      "speaker": {
+        "name": "Hector G. Parra",
+        "image": "https://pbs.twimg.com/profile_images/2808671045/670e5befd13ff34e86991ef5c1a1de07_400x400.jpeg",
+        "twitter": "hgparra",
+        "github": "hparra",
+        "description": "Developer at Pivotshare. Third culture kid. Se habla español."
+      }
+    }]
+
+  },
     {
       "date": "September 10, 2014",
       "location": "Zillow Irvine HQ",

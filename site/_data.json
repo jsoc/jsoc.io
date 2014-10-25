@@ -1,17 +1,17 @@
 {
   "current": {
-    "date": "October 8, 2014",
+    "date": "Nov 12, 2014",
     "location": "Zillow Irvine HQ",
     "topics": [
     {
-      "title": "Creating CLI applications with Node.js",
-      "description": "The command-line interface (CLI) is where modern development tools began and continue to be. Learn the about the CLI and the UNIX philosophy, and how you can create your own CLI tools with NodeJS."
+      "title": "Node.js Application Architecture",
+      "description": "This month we're starting our meetup series on Node.js in production!\n\nThis month's speaker is processing millions of transactions every day with Node.js. Join us while Farsheed shares his insights on building battle-tested architectures for Node.js in production.",
       "speaker": {
-        "name": "Hector G. Parra",
-        "image": "https://pbs.twimg.com/profile_images/2808671045/670e5befd13ff34e86991ef5c1a1de07_400x400.jpeg",
-        "twitter": "hgparra",
-        "github": "hparra",
-        "description": "Developer at Pivotshare. Third culture kid. Se habla español."
+        "name": "Farsheed Atef",
+        "image": "https://pbs.twimg.com/profile_images/1478674115/DSC_0017_2_400x400.JPG",
+        "twitter": "captainatef",
+        "github": "farsheed",
+        "description": "CTO/Co-Founder Drumbi"
       }
     }]
 
