@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "description": "JS OC - http://jsoc.io",
   "private": true,
-  "scripts": {
-    "start": "harp server site/"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/javascriptoc/jsoc.io.git"
@@ -16,7 +13,4 @@
     "url": "https://github.com/javascriptoc/jsoc.io/issues"
   },
   "homepage": "https://github.com/javascriptoc/jsoc.io",
-  "dependencies": {
-    "harp": "0.13.0"
-  }
 }

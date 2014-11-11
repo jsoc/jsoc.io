@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript in Orange County, CA</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.11/angular-ui-router.min.js"></script>
+  <script>
+    var app = angular.module('app', ['ui.router'])
+    .config(function($stateProvider, $urlRouterProvider) {
+      //
+      // For any unmatched url, redirect to /state1
+      $urlRouterProvider.otherwise("/");
+      //
+      // Now set up the states
+      $stateProvider
+        .state('index', {
+          url: "/",
+          templateUrl: "partials/index.html"
+        })
+        // .state('state1.list', {
+        //   url: "/list",
+        //   templateUrl: "partials/state1.list.html",
+        //   controller: function($scope) {
+        //     $scope.items = ["A", "List", "Of", "Items"];
+        //   }
+        // })
+        // .state('state2', {
+        //   url: "/state2",
+        //   templateUrl: "partials/state2.html"
+        // })
+        // .state('state2.list', {
+        //   url: "/list",
+        //   templateUrl: "partials/state2.list.html",
+        //   controller: function($scope) {
+        //     $scope.things = ["A", "Set", "Of", "Things"];
+        //   }
+        // });
+        ;
+    })
+    .controller('Main', function() {
+      console.log("sup");
+    });
+  </script>
+</head>
+<body>
+  <div ui-view></div>
+</body>
+</html>
