@@ -2,6 +2,9 @@ jsoc.io
 =======
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/jsoc/jsoc.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+[![Join the chat at https://gitter.im/jsoc/jsoc.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jsoc/jsoc.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/jsoc/jsoc.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <img alt="jsoc.io" src="http://jsoc.io/images/logo.png" width="120" />
 
 
