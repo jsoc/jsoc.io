@@ -1,6 +1,6 @@
 jsoc.io
 =======
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/javascriptoc/jsoc.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/jsoc/jsoc.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <img alt="jsoc.io" src="http://jsoc.io/images/logo.png" width="120" />
 
