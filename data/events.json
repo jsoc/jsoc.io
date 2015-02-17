@@ -3,10 +3,12 @@
   {
     "date": "October 8, 2014",
     "location": "Zillow Irvine HQ",
+    "photo": "october-8-2014.jpg",
     "topics": [
     {
       "title": "Creating CLI applications with Node.js",
       "description": "The command-line interface (CLI) is where modern development tools began and continue to be. Learn the about the CLI and the UNIX philosophy, and how you can create your own CLI tools with NodeJS.",
+      "media": "//www.youtube.com/embed/QnQFGO4BjQc?rel=0&amp;controls=1&autoplay=1",
       "speaker": {
         "name": "Hector G. Parra",
         "image": "https://pbs.twimg.com/profile_images/2808671045/670e5befd13ff34e86991ef5c1a1de07_400x400.jpeg",
@@ -41,7 +43,7 @@
         "title": "12 Factor Apps",
         "description": "12 Factor Apps",
         "speaker": {
-          "name": "Eric Wolf"
+          "name": "Eric W."
         }
       }]
     },
@@ -136,6 +138,7 @@
       {
         "title": "Intro to Socket IO",
         "description": "Intro to Socket IO",
+        "media": "//www.slideshare.net/slideshow/embed_code/26962418",
         "slides": "http://www.slideshare.net/eddify/node-js-oc-meetup-2-socket-io-intro",
         "speaker": {
           "name": "Eddy Kim"
@@ -149,12 +152,11 @@
       {
         "title": "Intro To Node.JS",
         "description": "Intro To Node.JS",
+        "media": "//www.slideshare.net/slideshow/embed_code/24323479",
         "slides": "http://www.slideshare.net/eddify/meetup1-24323479",
-        "speaker": [{
+        "speaker": {
           "name": "Farsheed Atef"
-        },{
-          "name": "Eddy Kim"
-        }]
+        }
       }]
     }
   ]
