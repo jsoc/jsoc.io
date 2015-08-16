@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- iojs
+script: gulp ci
+after_success: >
+  if [[ $TRAVIS_BRANCH == 'feature/15' ]]; then
+    rm -rf deploy || exit 0 && \ 
+    mkdir deploy && cd deploy && git init && \
+    git config user.name "TravisCI" && \
+    git config user.email "travis@jsoc.io" && \
+    echo 'jsoc.io' > ./CNAME &&  git add . && \ 
+    git commit -am "Deploying jsoc.io to gh-pages" && git push --force "https://${GH_TOKEN}@${DEPLOY_REPO}" master:gh-pagestest
+
+env:
+  global:
+  - DEPLOY_REPO=github.com/jsoc/jsoc.io.git
+  - secure: e1L21tRJZIAd7Cp/3P/adIQGpNhAng550Wj9IcG+5uXLxR01T4XjcoCE2TDqUfAf023HEt9ZFCidtRUlOFMTnQ6gbf8sZlRNrvuMQjw0aCEvocv95KoOu5l4+NNAnFaVZRpsKzt9deZJ+QclFwsM/JAFY9RyUS/tukuL8KwiDYY=
