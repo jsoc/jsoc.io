@@ -15,7 +15,6 @@ Home   = create-factory home
 
 module.exports = React.create-class({
   render: ->
-    React.DOM.div class-name: \container,
-      Header null
-      Home data: @props.data
+    Header null
+    Home data: @props.data
 })
