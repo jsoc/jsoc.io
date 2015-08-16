@@ -8,13 +8,13 @@ cache:
 
 script: gulp ci
 after_success: >
-  if [[ $TRAVIS_BRANCH == 'feature/15' ]]; then
+  if [[ $TRAVIS_BRANCH == 'master' ]]; then
     rm -rf deploy || exit 0 && \ 
     mkdir deploy && cp -R dist/* deploy && cd deploy && git init && \
     git config user.name "TravisCI" && \
     git config user.email "travis@jsoc.io" && \
     echo 'jsoc.io' > ./CNAME &&  git add . && \ 
-    git commit -am "Deploying jsoc.io to gh-pages" && git push --force "https://${GH_TOKEN}@${DEPLOY_REPO}" master:gh-pagestest
+    git commit -am "Deploying jsoc.io to gh-pages" && git push --force "https://${GH_TOKEN}@${DEPLOY_REPO}" master:gh-pages
   fi
 
 env:
