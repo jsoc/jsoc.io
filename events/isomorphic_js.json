@@ -1,5 +1,5 @@
 {
-  "date": "June 11, 2014",
+  "date": "1402536600000",
   "location": "PeopleSpace",
   "topics": [
     {
@@ -8,7 +8,10 @@
       "slides": "http://slides.com/scottcorgan/like-a-glove#/",
       "speaker": {
         "name": "Scott Corgan",
-        "organization": "Divshot"
+        "organization": "Divshot",
+        "github": "scottcorgan",
+        "image": "https://avatars1.githubusercontent.com/u/974723?v=3&s=460",
+        "npm": "scottcorgan"
       }
     },{
     "title": "Node.js + Email",
@@ -16,7 +19,10 @@
     "slides": "http://mattkopala.com/node-email-talk/",
     "speaker": {
       "name": "Matt Kopala",
-      "organization": "TaskBump"
+      "organization": "TaskBump",
+      "github": "mkopala",
+      "image": "https://avatars3.githubusercontent.com/u/561932?v=3&s=460",
+      "twitter": "mkopala"
     }
     }]
 }

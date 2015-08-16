@@ -1,5 +1,5 @@
 {
-  "date": "December 11, 2013",
+  "date": "1386815400000",
   "location": "Drumbi",
   "topics": [
     {
@@ -7,7 +7,10 @@
       "description": "GruntJS",
       "slides": "http://benwas.com/grunt/",
       "speaker": {
-        "name": "Benjamin Wasilewski"
+        "name": "Benjamin Wasilewski",
+        "github": "bwasilewski",
+        "image": "https://avatars1.githubusercontent.com/u/735434?v=3&s=460"
+
       }
     }]
 }

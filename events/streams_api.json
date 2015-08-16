@@ -1,12 +1,17 @@
 {
-  "date": "May 14, 2014",
+  "date": "1400117400000",
   "location": "PeopleSpace",
   "topics": [
     {
       "title": "The Stream API",
       "description": "The Stream API",
       "speaker": {
-        "name": "Mark Wilkerson"
+        "name": "Mark Wilkerson",
+        "image": "https://avatars1.githubusercontent.com/u/266110?v=3&s=460",
+        "github": "markhuge",
+        "twitter": "mwhuge",
+        "npm": "markhuge",
+        "bio": "Mark is the technical co-founder of SpeakUp (http://getspeakup.com), a Node.js based startup in OC. Before that he worked @ Blizzard Entertainment and Dell."
       }
     }]
 }
