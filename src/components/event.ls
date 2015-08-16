@@ -1,4 +1,4 @@
-{ h1, div  } = DOM
+{ h1, address, header, article  } = DOM
 
 require! {
   \./topic
@@ -11,7 +11,9 @@ module.exports = React.create-class({
   render: ->
     { topics, date, location } = @props.data
     pretty-date = moment(parseInt(date)).format("ddd, MMMM, Do, YYYY, h:mma")
-    div class-name: \event,
-      h1 class-name: \title, "#{pretty-date} - #{location}"
+    article class-name: \event,
+      header null,
+        h1 class-name: \date, pretty-date
+        address null, location
       topics.map (topic) -> (Topic data: topic)
 })

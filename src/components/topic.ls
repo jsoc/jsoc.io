@@ -1,4 +1,4 @@
-{ h1, div  } = DOM
+{ h1, footer, p, section, header } = DOM
 
 require! {
   \./speaker
@@ -13,12 +13,14 @@ Video   = create-factory video-embed
 module.exports = React.create-class({
   render: ->
     { description, title, slides, speaker, video } = @props.data
-    div class-name: \topic,
-      h1 class-name: \title, title
-      div class-name: \description, description
-      if video
-        Video url: video.url
+    section class-name: \topic,
+      header null,
+        h1 class-name: \title, title
+      p class-name: \description, description
+#      if video
+#        Video url: video.url
       if slides
         Slides url: slides
-      Speaker data: speaker
+      footer null,
+        Speaker data: speaker
 })
