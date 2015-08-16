@@ -1,5 +1,8 @@
 var webpack     = require('webpack'),
     bourbon     = require('node-bourbon').includePaths,
+    neat        = require('node-neat').includePaths.map(function(sassPath) {
+        return "includePaths[]=" + sassPath;
+    }).join("&"),
     outPath     = __dirname + '/dist',
     resolve     = { 
       extensions: ['','.ls','.js','.json','.sass','.png','.jpg']
@@ -18,6 +21,7 @@ var webpack     = require('webpack'),
         test: /\.sass$/,
         loader: 'style!css!sass?indentedSyntax&' +
         "includePaths[]=" + bourbon + "&" +
+        "includePaths[]=" + neat + "&" +
         "includePaths[]=" + __dirname + "./src/sass"
       }
         ]
