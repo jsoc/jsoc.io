@@ -11,7 +11,6 @@ var webpack     = require('webpack'),
     
     modules     = {
       loaders: [
-      { test: /\.js$/, loader: '6to5?experimental' },
       { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192&name=/images/[name].[ext]&context=./src/images'},
       { test: /\.ls$/, loader: 'livescript-loader?const=true' },
       { test: /\.json$/, loader: 'json' },
