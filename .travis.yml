@@ -15,6 +15,7 @@ after_success: >
     git config user.email "travis@jsoc.io" && \
     echo 'jsoc.io' > ./CNAME &&  git add . && \ 
     git commit -am "Deploying jsoc.io to gh-pages" && git push --force "https://${GH_TOKEN}@${DEPLOY_REPO}" master:gh-pagestest
+  fi
 
 env:
   global:
