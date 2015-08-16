@@ -17,3 +17,27 @@ Each of our events is defined in its own json file in the `events/` directory. A
 4. Submit a [PR](https://help.github.com/articles/using-pull-requests/) back to this repo.
 
 Please feel free to ask any questions or add additional info via the [PR comments](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/).
+
+## Contributing
+
+### Install/Build
+`npm install && gulp`
+
+Some of the dependencies compile C++ so the first install might take a few mins depending on your machine.
+
+### Project Layout
+
+```
+├── events/         <-- meetup event json files
+├── src/
+│   ├── App.ls      <-- React App
+│   ├── components/ <-- React components
+│   ├── entry.ls    <-- Webpack entry
+│   ├── images/     <-- image assets
+│   ├── index.html  
+│   └── sass/       <-- styles
+├── gulpfile.js
+├── package.json
+├── README.md
+└── webpack.config.js
+```
