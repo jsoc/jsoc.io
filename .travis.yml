@@ -1,6 +1,10 @@
 language: node_js
 node_js:
 - iojs
+cache:
+  directories:
+    - node_modules
+
 script: gulp ci
 after_success: >
   if [[ $TRAVIS_BRANCH == 'feature/15' ]]; then
