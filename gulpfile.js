@@ -34,7 +34,11 @@ gulp.task('static', ['events'],  function () {
     .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('webpack', ['static','image'], function (cb) {
+gulp.task('ci', ['static','image'], function (cb) {
+  webpack(wpconfig,cb);
+});
+
+gulp.task('webpack-server', ['static','image'], function (cb) {
   var config = Object.create(wpconfig);
   new wpserver(webpack(config), {
     contentBase:  './dist',
@@ -44,4 +48,4 @@ gulp.task('webpack', ['static','image'], function (cb) {
 });
   
 
-gulp.task('default', ['webpack']);
+gulp.task('default', ['webpack-server']);
