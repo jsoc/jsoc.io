@@ -1,13 +1,25 @@
+addons:
+  apt:
+    packages:
+    - tar
+
 sudo: false
 language: node_js
 node_js:
-  - iojs-v2.0.0
+- iojs-v2.0.0
+
+
 cache:
   directories:
-    - node_modules
+  - node_modules
+
 
 script: gulp ci
+
+
 after_success: >
+  ls -a && tar czf jsoc.io-$TRAVIS_BRANCH.tar.gz package.json node_modules/ src/  README.md gulpfile.js webpack.config.js events/ && \
+  
   if [[ $TRAVIS_BRANCH == 'master' ]]; then
     rm -rf deploy || exit 0 && \ 
     mkdir deploy && cp -R dist/* deploy && cd deploy && git init && \
@@ -15,9 +27,26 @@ after_success: >
     git config user.email "travis@jsoc.io" && \
     echo 'jsoc.io' > ./CNAME &&  git add . && \ 
     git commit -am "Deploying jsoc.io to gh-pages" && git push --force "https://${GH_TOKEN}@${DEPLOY_REPO}" master:gh-pages
-  fi
+  fi 
+    
+
+
+
 
 env:
   global:
   - DEPLOY_REPO=github.com/jsoc/jsoc.io.git
   - secure: e1L21tRJZIAd7Cp/3P/adIQGpNhAng550Wj9IcG+5uXLxR01T4XjcoCE2TDqUfAf023HEt9ZFCidtRUlOFMTnQ6gbf8sZlRNrvuMQjw0aCEvocv95KoOu5l4+NNAnFaVZRpsKzt9deZJ+QclFwsM/JAFY9RyUS/tukuL8KwiDYY=
+
+
+deploy:
+  provider: releases
+  file: jsoc.io-$TRAVIS_BRANCH.tar.gz
+  repo: jsoc/jsoc.io
+  skip_cleanup: true
+  on:
+    tags: true
+    all_branches: true
+  api_key:
+    secure: iOND9VyulKIKQH6JwtlfHLZAAYoTfpAUi0mkYLOuwqee+QSwt2bMBu07OyN37Al+lwX02h1vBKrOxj+riT8P+qxthNNCoYd09b1D+ZLgQt1eh8OYPsocrGOxO6OrU8TM8bo+FT35QWso/OAFJvt6NqdebOk0oyUJxTaurXifpbI=
+
