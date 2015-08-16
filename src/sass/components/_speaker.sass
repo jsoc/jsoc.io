@@ -1,0 +1,26 @@
+.speaker
+  border-top: 1px solid #ccc
+  padding: 2em 0 0 0 
+  @include display(flex)
+  @include flex-direction(row)
+
+  .social
+    ul, li
+      display: inline
+      margin-right: 8px
+
+  .speaker-pic
+    border-radius: 50%
+    max-width: 140px
+    max-height: 140px
+    margin-right: 10px
+    @include flex(1)
+
+  .speaker-summary
+    padding: 5px
+    @include flex(2)
+
+    p
+      margin-bottom: 10px
+      white-space: pre-wrap
+
