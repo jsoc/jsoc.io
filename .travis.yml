@@ -10,7 +10,7 @@ script: gulp ci
 after_success: >
   if [[ $TRAVIS_BRANCH == 'feature/15' ]]; then
     rm -rf deploy || exit 0 && \ 
-    mkdir deploy && cd deploy && git init && \
+    mkdir deploy && cp -R dist deploy && cd deploy && git init && \
     git config user.name "TravisCI" && \
     git config user.email "travis@jsoc.io" && \
     echo 'jsoc.io' > ./CNAME &&  git add . && \ 
