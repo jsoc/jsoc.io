@@ -5,20 +5,15 @@ jsoc.io
 <img alt="jsoc.io" src="http://jsoc.io/images/logo.png" width="120" />
 
 
-Static site for [jsoc.io](http://jsoc.io).
+## Proposing an Event
 
-Inspired (heavily) by @jsla.
+This is an attempt to make event proposals self service and transparent. Feedback is welcome and appreciated!
 
-Development Instructions
-========================
+Each of our events is defined in its own json file in the `events/` directory. A new talk just means a new json file. You won't need to build or test anything in this repo to submit your talk, just create a new json file per the instructions below:
 
-jsoc.io is generated using [harp](http://harpjs.com/)
+1. [Fork](https://help.github.com/articles/fork-a-repo/) this repo
+2. Use example-event.json and fill in the details for your event. For things you don't know (i.e. location/date) don't worry, we'll add that later.
+3. Save this new json file as `events/<whatever_name_you_want>.json`.
+4. Submit a [PR](https://help.github.com/articles/using-pull-requests/) back to this repo.
 
-- ```$ git clone https://github.com/javascriptoc/jsoc.io```
-- ```$ cd jsoc.io/```
-- ```$ npm install```
-- ```$ npm start```
-
-Before working on changes/updates please create a branch. ```git checkout -b redesign``` for example.
-
-When you're done making your commits just go ahead and submit a pull request.
+Please feel free to ask any questions or add additional info via the [PR comments](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/).
