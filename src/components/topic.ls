@@ -17,8 +17,8 @@ module.exports = React.create-class({
       header null,
         h1 class-name: \title, title
       p class-name: \description, description
-#      if video
-#        Video url: video.url
+      if video
+        Video url: video.url
       if slides
         Slides url: slides
       footer null,
