@@ -1,0 +1,12 @@
+{
+  "date": "May 14, 2014",
+  "location": "PeopleSpace",
+  "topics": [
+    {
+      "title": "The Stream API",
+      "description": "The Stream API",
+      "speaker": {
+        "name": "Mark Wilkerson"
+      }
+    }]
+}

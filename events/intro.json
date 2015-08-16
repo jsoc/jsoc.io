@@ -1,0 +1,15 @@
+{
+  "date": "July 16, 2013",
+  "location": "Drumbi",
+  "topics": [
+    {
+      "title": "Intro To Node.JS",
+      "description": "Intro To Node.JS",
+      "slides": "http://www.slideshare.net/eddify/meetup1-24323479",
+      "speaker": [{
+        "name": "Farsheed Atef"
+      },{
+      "name": "Eddy Kim"
+      }]
+    }]
+}

@@ -1,0 +1,13 @@
+{
+  "date": "December 11, 2013",
+  "location": "Drumbi",
+  "topics": [
+    {
+      "title": "GruntJS",
+      "description": "GruntJS",
+      "slides": "http://benwas.com/grunt/",
+      "speaker": {
+        "name": "Benjamin Wasilewski"
+      }
+    }]
+}

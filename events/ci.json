@@ -1,0 +1,13 @@
+{
+  "date": "July 16, 2014",
+  "location": "PeopleSpace",
+  "topics": [
+    {
+      "title": "Continuous Integration",
+      "description": "Live deploying an app w/ Salt & StriderCD",
+      "speaker": {
+        "name": "Keyvan Fatehi",
+        "organization": "StriderCD"
+      }
+    }]
+}
