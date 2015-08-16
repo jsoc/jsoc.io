@@ -4,7 +4,7 @@
   "description": "JS OC - http://jsoc.io",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages-deploy"
+    "deploy": "gh-pages-deploy",
     "dev": "gulp"
   },
   "gh-pages-deploy": {
