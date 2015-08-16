@@ -1,0 +1,13 @@
+{
+  "date": "1380159000000",
+  "location": "Drumbi",
+  "topics": [
+    {
+      "title": "Intro to Socket IO",
+      "description": "Intro to Socket IO",
+      "slides": "http://www.slideshare.net/eddify/node-js-oc-meetup-2-socket-io-intro",
+      "speaker": {
+        "name": "Eddy Kim"
+      }
+    }]
+}

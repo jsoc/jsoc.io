@@ -1,0 +1,14 @@
+{
+  "date": "1405560600000",
+  "location": "PeopleSpace",
+  "topics": [
+    {
+      "title": "Continuous Integration",
+      "description": "Live deploying an app w/ Salt & StriderCD",
+      "speaker": {
+        "name": "Keyvan Fatehi",
+        "github": "keyvanfatehi",
+        "image": "https://avatars2.githubusercontent.com/u/175305?v=3&s=460"
+      }
+    }]
+}

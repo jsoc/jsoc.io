@@ -1,0 +1,14 @@
+{
+  "date": "1407979800000",
+  "location": "Marshall Reddick Real Estate Network",
+  "topics": [
+    {
+      "title": "12 Factor Apps",
+      "description": "12 Factor Apps",
+      "speaker": {
+        "name": "Eric Wolf",
+        "image": "https://avatars1.githubusercontent.com/u/6847633?v=3&s=460",
+        "github": "aesopwolf"
+      }
+    }]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "1402536600000",
+  "location": "PeopleSpace",
+  "topics": [
+    {
+      "title": "Isomorphic Javascript",
+      "description": "Isomorphic Javascript",
+      "slides": "http://slides.com/scottcorgan/like-a-glove#/",
+      "speaker": {
+        "name": "Scott Corgan",
+        "organization": "Divshot",
+        "github": "scottcorgan",
+        "image": "https://avatars1.githubusercontent.com/u/974723?v=3&s=460",
+        "npm": "scottcorgan"
+      }
+    },{
+    "title": "Node.js + Email",
+    "description": "Node.js + Email",
+    "slides": "http://mattkopala.com/node-email-talk/",
+    "speaker": {
+      "name": "Matt Kopala",
+      "organization": "TaskBump",
+      "github": "mkopala",
+      "image": "https://avatars3.githubusercontent.com/u/561932?v=3&s=460",
+      "twitter": "mkopala"
+    }
+    }]
+}
