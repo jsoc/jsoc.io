@@ -16,7 +16,7 @@ gulp.task('events', function () {
     list.push(events[key]);
   });
 
-  list.sort(sortBy('date'));
+  list.sort(sortBy('-date'));
 
   var json = JSON.stringify({ events: list });
   fs.writeFileSync('src/data.json', json);
