@@ -3,12 +3,11 @@ require! {
   \./event
 }
 
-Event = create-factory event
+Event  = create-factory event
 
 module.exports = React.create-class({
-  render: -> 
+  render: ->
     { events } = @props.data
-    console.log @props
-    div class-name: \balls,
+    div class-name: 'event-list',
       events.map (event) -> (Event data: event)
 })
