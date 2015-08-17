@@ -1,0 +1,12 @@
+{
+  "date": "1392258600000",
+  "location": "Peoplespace",
+  "topics": [
+    {
+      "title": "Test Driven Development",
+      "description": "Come learn how to use:\n\n• Mocha - full stack javascript testing framework \n• Chai - Behavior assertion library for Behavior driven development \n• Super Test - HTTP Assertion Library for testing API and http responses \n\n",
+      "speaker": {
+        "name": "Eddy Kim"
+      }
+    }]
+}

@@ -4,7 +4,7 @@
   "topics": [
     {
       "title": "Filling in the Gaps",
-      "description": "Filling in the Gaps",
+      "description": "It seems like most Node.js intros/tutorials are some variant of building a RESTful app server with express.js. While this is a great way to get up and running quickly, it fails to address the core principles, patterns, and pitfalls of production Node.js development. This discussion is meant to eliminate \"deep magic\" and fill in gaps for Node.js developers at all levels of experience. \n\nTopics include: \n- Async, non-blocking I/O, and other buzzwords  \n- Node in Production (automation, deploying, scaling, and calls) ",
       "speaker": {
         "name": "Mark Wilkerson",
         "image": "https://avatars1.githubusercontent.com/u/266110?v=3&s=460",

@@ -1,0 +1,17 @@
+{
+  "date": "1421289000000",
+  "location": "Zillow Irvine HQ",
+  "topics": [
+    {
+      "title": "Node.js, the Universe and Everything",
+      "description": "Greenfield projects are great, but how do you integrate Node.js with an existing stack?\n\nThis month Mark does a deep dive on what he and his team @ Hightail are doing to build, release, and integrate Node.js with a diverse infrastructure and a polyglot application stack.",
+      "speaker": {
+        "name": "Mark Wilkerson",
+        "image": "https://avatars1.githubusercontent.com/u/266110?v=3&s=460",
+        "github": "markhuge",
+        "twitter": "mwhuge",
+        "npm": "markhuge",
+        "bio": "Mark Wilkerson is the Node.js principle @ Hightail. Formerly of SpeakUp, Blizzard, and Dell"
+      }
+    }]
+}
