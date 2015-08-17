@@ -26,6 +26,6 @@ module.exports = React.create-class({
           React.create-element \circle, (cx: 32, cy: 32, r: 31)
         React.create-element \g class-name: 'social-svg-icon',
           React.create-element \path, d: svgs[@props.network].icon
-        React.create-element \g class-name: 'social-svg-mask', style: (fill: svgs[@props.network].color),
+        React.create-element \g class-name: 'social-svg-mask', style: (fill: @props.color || svgs[@props.network].color),
           React.create-element \path, d: svgs[@props.network].mask
 })
