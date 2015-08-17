@@ -8,8 +8,8 @@ Icon = create-factory icon
 
 module.exports = React.create-class({
   render: ->
-    header null,
-      img (src: \/logo.png, width: "100px")
+    header class-name: 'page-header',
+      img src: \/logo.png
       ul class-name: \social,
         li null,
           Icon network: \twitter, url: "https://twitter.com/javascriptoc"
