@@ -22,5 +22,6 @@ module.exports = React.create-class({
       if slides
         Slides url: slides
       footer null,
-        Speaker data: speaker
+        if speaker
+          Speaker data: speaker
 })
