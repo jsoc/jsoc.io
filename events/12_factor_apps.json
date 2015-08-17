@@ -4,9 +4,9 @@
   "topics": [
     {
       "title": "12 Factor Apps",
-      "description": "12 Factor Apps",
+      "description": "What is a 12 factor app? Come find out from our very own Eric who will discuss the tools he uses to make his node.js apps conform to the 12 factor philosophy. http://12factor.net",
       "speaker": {
-        "name": "Eric Wolf",
+        "name": "Eric Wolfe",
         "image": "https://avatars1.githubusercontent.com/u/6847633?v=3&s=460",
         "github": "aesopwolf"
       }
