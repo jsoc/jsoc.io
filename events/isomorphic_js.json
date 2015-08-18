@@ -5,7 +5,9 @@
     {
       "title": "Isomorphic Javascript",
       "description": "Topic Bullet Points:\n\n• Introduce Divshot's need for code reuse between Node and browser\n\n• Introduce the solution and it's implication (namely Browserify and the numerous modules that solve isomorphic javascript problems)  \n\n• hyperquest  \n\n• through  \n\n• filereader-stream  \n\n• Introduce Divshot's solution using isomorphic Node-style code\n\n• Other various examples- Questions?",
-      "slides": "//slides.com/scottcorgan/like-a-glove/embed",
+      "slides": { 
+        "url": "//slides.com/scottcorgan/like-a-glove/embed"
+      },
       "speaker": {
         "bio": "Scott Corgan. Worked on Node since right before v0.6. Build E-commerce platforms, hosting platforms, and many many NPM modules. Currently working at Divshot as lead Node developer.",
         "name": "Scott Corgan",

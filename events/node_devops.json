@@ -5,6 +5,10 @@
     {
       "title": "Node.js, the Universe and Everything",
       "description": "Greenfield projects are great, but how do you integrate Node.js with an existing stack?\n\nThis month Mark does a deep dive on what he and his team @ Hightail are doing to build, release, and integrate Node.js with a diverse infrastructure and a polyglot application stack.",
+      "slides": { 
+          "service": "speakerdeck",
+          "id": "5234f6475cc24d97ad34ee9459654b26"
+      },
       "speaker": {
         "name": "Mark Wilkerson",
         "image": "https://avatars1.githubusercontent.com/u/266110?v=3&s=460",

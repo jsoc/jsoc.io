@@ -5,7 +5,9 @@
     {
       "title": "Intro To Node.JS",
       "description": "Intro To Node.JS",
-      "slides": "//www.slideshare.net/slideshow/embed_code/key/ncocU4wrfvCtfz",
+      "slides": {
+        "url": "//www.slideshare.net/slideshow/embed_code/key/ncocU4wrfvCtfz"
+      },
       "speaker": {
         "name": "Farsheed Atef",
         "twitter": "captainatef",

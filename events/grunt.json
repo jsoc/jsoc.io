@@ -5,7 +5,9 @@
     {
       "title": "GruntJS",
       "description": "GruntJS",
-      "slides": "http://benwas.com/grunt/",
+      "slides": {
+        "url": "http://benwas.com/grunt/"
+      },
       "speaker": {
         "name": "Benjamin Wasilewski",
         "github": "bwasilewski",

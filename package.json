@@ -23,7 +23,8 @@
   "homepage": "https://github.com/javascriptoc/jsoc.io",
   "dependencies": {
     "moment": "2.10.6",
-    "react": "0.13.3"
+    "react": "0.13.3",
+    "react-slides": "^1.0.0"
   },
   "devDependencies": {
     "css-loader": "0.16.0",

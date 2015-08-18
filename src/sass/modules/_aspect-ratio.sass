@@ -1,4 +1,18 @@
-[data-aspect-ratio] 
+
+// Seriously?
+$ratios: ('3:1': 'padding-top: 33.33%')
+$ratios: map-merge($ratios, ('2:1': '50%'))
+$ratios: map-merge($ratios, ('16:9': '56.25%'))
+$ratios: map-merge($ratios, ('3:2': '66.66%'))
+$ratios: map-merge($ratios, ('4:3': '75%'))
+$ratios: map-merge($ratios, ('1:1': '100%'))
+$ratios: map-merge($ratios, ('3:4': '133.33%'))
+$ratios: map-merge($ratios, ('2:3': '150%'))
+$ratios: map-merge($ratios, ('9:16': '177.77%'))
+$ratios: map-merge($ratios, ('1:2': '200%'))
+$ratios: map-merge($ratios, ('1:3': '300%'))
+
+@mixin aspect-ratio($ratio)
   display: block
   max-width: 100%
   position: relative
@@ -6,6 +20,7 @@
   &:before 
     content: ''
     display: block
+    padding-top: map-get($ratios,$ratio)
   
 
   > * 
@@ -15,37 +30,3 @@
     position: absolute
     top: 0
     width: 100%
-  
-
-[data-aspect-ratio="3:1"]:before 
-  padding-top: 33.33%
-
-[data-aspect-ratio="2:1"]:before 
-  padding-top: 50%
-
-[data-aspect-ratio="16:9"]:before 
-  padding-top: 56.25%
-
-[data-aspect-ratio="3:2"]:before 
-  padding-top: 66.66%
-
-[data-aspect-ratio="4:3"]:before 
-  padding-top: 75%
-
-[data-aspect-ratio="1:1"]:before 
-  padding-top: 100%
-
-[data-aspect-ratio="3:4"]:before 
-  padding-top: 133.33%
-
-[data-aspect-ratio="2:3"]:before 
-  padding-top: 150%
-
-[data-aspect-ratio="9:16"]:before 
-  padding-top: 177.77%
-
-[data-aspect-ratio="1:2"]:before 
-  padding-top: 200%
-
-[data-aspect-ratio="1:3"]:before 
-  padding-top: 300%

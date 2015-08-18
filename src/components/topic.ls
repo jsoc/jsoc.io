@@ -3,7 +3,7 @@
 require! {
   \./speaker
   './video-embed'
-  './speaker-deck': slides
+  'react-slides': slides
 }
 
 Slides  = create-factory slides
@@ -20,7 +20,7 @@ module.exports = React.create-class({
       if video
         Video url: video.url
       if slides
-        Slides url: slides
+        Slides url: slides.url, service: slides.service, id: slides.id
       footer null,
         if speaker
           Speaker data: speaker

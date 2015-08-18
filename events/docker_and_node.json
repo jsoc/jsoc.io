@@ -5,7 +5,9 @@
     {
       "title": "Node.js OC - Docker and Node",
       "description": "How Zillow is using Docker with Node.js.",
-      "slides": "//www.slideshare.net/slideshow/embed_code/38980381",
+      "slides": {
+        "url": "//www.slideshare.net/slideshow/embed_code/38980381"
+      },
       "speaker": {
         "name": "Jeffrey Horn",
         "image": "https://avatars3.githubusercontent.com/u/1922957?v=2&s=460",

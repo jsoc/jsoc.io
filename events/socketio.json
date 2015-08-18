@@ -5,7 +5,9 @@
     {
       "title": "Intro to Socket IO",
       "description": "Intro to Socket IO",
-      "slides": "//www.slideshare.net/slideshow/embed_code/key/xwnormQ2tU1yjb",
+      "slides": {
+        "url": "//www.slideshare.net/slideshow/embed_code/key/xwnormQ2tU1yjb"
+      },
       "speaker": {
         "name": "Eddy Kim"
       }

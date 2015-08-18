@@ -8,15 +8,16 @@
     white-space: pre-wrap
     
 
-  .slide-frame
+  .react-slides iframe
     margin-top: 1em
     width: 700px
+    height: 390px;
     max-width: 100%
+    @include aspect-ratio('16:9')
   
-  .video-frame
+  .video-frame iframe
     margin-top: 1em
     width: 700px
+    height: 390px;
     max-width: 100%
-
-  iframe
-    overflow: hidden
+    @include aspect-ratio('16:9')
